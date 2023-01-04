@@ -1,6 +1,6 @@
 <script>
 import Changemsg from '../components/Changemsg.vue';
-import conditional from '../components/conditional.vue';
+import conditional from '../components/conditionaltesttest.vue';
 import Repeatcom from '../components/Repeatcom.vue';
 import HandlerVue from '../components/Handler.vue';
 
