@@ -1,8 +1,9 @@
 <script>
 import A from '../components/A.vue';
 import B from '../components/B.vue';
+import Mymodal from './Mymodal.vue';
 export default {
-   components: { A, B },
+   components: { A, B, Mymodal },
    data() {
       return {
          current: 'A',
@@ -17,5 +18,6 @@ export default {
       <KeepAlive>
          <component :is="current"></component>
       </KeepAlive>
+      <Mymodal />
    </div>
 </template>

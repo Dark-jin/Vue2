@@ -62,8 +62,4 @@ button {
 input[disabled] {
    color: #999;
 }
-
-p {
-   color: red;
-}
 </style>
